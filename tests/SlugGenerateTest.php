@@ -7,7 +7,7 @@ it('can generate test string to slug', function () {
     expect($generateSLug)->tobe('test-string');
 });
 
-it("should generate slug in ger method", function () {
+it('should generate slug in ger method', function () {
     $generateSLug = SlugGenerator::slug('test string')->get();
     expect($generateSLug)->tobe('test-string');
 });
