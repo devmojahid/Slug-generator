@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mojahid\SlugGenerator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SlugGeneratorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'slug-generator';
 
     public $description = 'My command';
 
