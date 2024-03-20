@@ -2,9 +2,9 @@
 
 namespace Mojahid\SlugGenerator;
 
+use Mojahid\SlugGenerator\Commands\SlugGeneratorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mojahid\SlugGenerator\Commands\SlugGeneratorCommand;
 
 class SlugGeneratorServiceProvider extends PackageServiceProvider
 {

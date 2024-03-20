@@ -8,6 +8,7 @@ class SlugGenerator
     {
         return new static($slug);
     }
+
     public function __construct(protected string $slug)
     {
     }
