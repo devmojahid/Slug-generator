@@ -17,4 +17,9 @@ class SlugGenerator
     {
         return str_replace(' ', '-', $this->slug);
     }
+
+    public function get(): string
+    {
+        return $this->gslug();
+    }
 }
